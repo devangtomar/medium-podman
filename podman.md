@@ -20,3 +20,11 @@ The primary distinctions between Docker and Podman (Pod Manager Tool) are as fol
 - **Rootless** — *Podman can be operated as root or as a non-root user. We can run Podman containers as non-root users while being compatible with container running.*
 - **Pods** — *The word Pods was coined by Kubernetes. Pods are groups of containers that run as close together as feasible. Podman includes this capability by default for running many containers concurrently.*
 
+**Architecture 🏛️:**
+
+**Many individuals still refer to a “container” as a “Docker container.”**
+
+This does not accurately represent the existing container ecosystem. Docker generates OCI container images that may be used with different runtimes. *Kubernetes is one such example, as is Podman.*
+
+As a result, the essential functionality of Podman and Docker overlaps. Both generate images that may be used to run containers by the other. On top of the basic containerization functionality, the two runtimes provide their own specializations.
+
