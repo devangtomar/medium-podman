@@ -28,3 +28,27 @@ This does not accurately represent the existing container ecosystem. Docker gene
 
 As a result, the essential functionality of Podman and Docker overlaps. Both generate images that may be used to run containers by the other. On top of the basic containerization functionality, the two runtimes provide their own specializations.
 
+**Setup ⚙️**
+
+And as it’s OCI-compliant, Podman can be used as a drop-in replacement for the better-known Docker runtime. Most Docker commands can be directly translated to Podman commands.
+
+Simply **put alias as, ‘docker=podman’** on your machine and you’re set
+
+Installation of Podman is pretty straightforward over a Mac. If you’re on other OS, follow this [documentation](https://podman.io/getting-started/installation). WSL over Windows works.
+
+Request admin access from Self-service app and then open terminal. The Mac client is available through [Homebrew](https://brew.sh/).
+
+brew install podman
+
+To start the Podman-managed VM:
+
+podman machine init
+
+And then
+
+podman machine start
+
+Once the installation is complete, you can then verify the installation information using:
+
+podman info
+
