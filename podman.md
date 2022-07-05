@@ -52,3 +52,17 @@ Once the installation is complete, you can then verify the installation informat
 
 podman info
 
+**TLDR 📌**
+
+As stated before, Podman is just an alias for docker. Whatever commands you can execute with docker, you can execute with Podman.
+
+**Building an Image**
+
+podman build -t “containername” .
+
+**Docker file :**
+
+**Image building via the command :**
+
+podman build
+
