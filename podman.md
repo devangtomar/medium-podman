@@ -66,3 +66,7 @@ podman build -t “containername” .
 
 podman build
 
+**Push Image**
+
+podman push “registryname/imagename:tag”
+
