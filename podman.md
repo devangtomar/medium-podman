@@ -70,3 +70,9 @@ podman build
 
 podman push “registryname/imagename:tag”
 
+**List images**
+
+podman images
+
+Command screenshot :
+
