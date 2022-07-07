@@ -76,3 +76,9 @@ podman images
 
 Command screenshot :
 
+**Run container**
+
+podman run “imagename”
+
+Command screenshot :
+
