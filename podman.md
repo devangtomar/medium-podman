@@ -82,3 +82,9 @@ podman run “imagename”
 
 Command screenshot :
 
+**Remove image**
+
+podman rmi imagename
+
+Command screenshot :
+
