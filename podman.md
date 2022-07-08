@@ -106,3 +106,7 @@ Podman in conjunction with podman-compose works well.
 
 I’ve had trouble getting podman-compose over Mac because there isn’t an official document for installation other than the one mentioned above.
 
+**Conclusion 💁🏻‍♂️**
+
+Podman wraps around Docker’s capabilities to provide a lightweight container runtime that can be used in Daemonless and Rootless modes.
+
