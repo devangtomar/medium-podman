@@ -88,3 +88,21 @@ podman rmi imagename
 
 Command screenshot :
 
+**Show Podman process status**
+
+podman ps -a
+
+Rest of the support commands is shown as below :
+
+If you use docker-compose , there is an alternative for this [podman-compose](https://github.com/containers/podman-compose).
+
+**Note :** Natively docker-compose is yet not supported by Podman yet at the time of my testing of Podman Release v4.0.0 version. And the one available is very unreliable.
+
+The setup is straightforward. Install Python if you don’t already have it, and then podman-compose.
+
+brew install python@3.10pip3 install podman-compose
+
+Podman in conjunction with podman-compose works well.
+
+I’ve had trouble getting podman-compose over Mac because there isn’t an official document for installation other than the one mentioned above.
+
