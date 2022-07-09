@@ -110,3 +110,18 @@ I’ve had trouble getting podman-compose over Mac because there isn’t an offi
 
 Podman wraps around Docker’s capabilities to provide a lightweight container runtime that can be used in Daemonless and Rootless modes.
 
+**Limitations of Podman 🥲**
+
+- Linux based.
+- No support for Windows OS based Containers. *(Supported now with the help of WSL)*
+- Docker-Compose component is still non-reliant
+- No GUI unlike Docker Desktop, Rancher Desktop.
+- New product with bugs and still coming features.
+- No Docker Swarm.
+
+That being said, Podman is still a new technology that is improving, and it may be best to ‘wait and see’ until we see community acceptance of Podman and it becomes a more developed and reliable tool.
+
+You can certainly experiment with it on your local workstations and learn more about it, but bringing it into your production system may take some time.
+
+Please share your opinions about Podman and this topic in the comments section.
+
